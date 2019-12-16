@@ -1,15 +1,16 @@
 header{
 	background: rgb(175,9,9);
 	background: linear-gradient(90deg, rgba(175,9,9,1) 14%, rgba(98,0,255,1) 100%);
-	border: 10px #5a5cb0 solid;
+	border: 0.625em #5a5cb0 solid;
 }
 footer{
 	background: rgb(175,9,9);
 	background: linear-gradient(90deg, rgba(175,9,9,1) 14%, rgba(98,0,255,1) 100%);
 	margin-top: 6%;
 	padding: 3%;
-	font-size: 30px;
-	border: 10px #5a5cb0 solid;
+	font-size: 1.875em;
+	border: 0.625em #5a5cb0 solid;
+	clear: both;
 }
 body{
 	background: rgb(9,33,175);
@@ -19,7 +20,7 @@ h1{
 	font-family: 'Comfortaa', cursive;
 	color: #a194f1;
 	text-align: right;
-	font-size: 54px;
+	font-size: 2.75em;
 }
 p{
 	color:#a194f1;
@@ -28,41 +29,46 @@ p{
 h3{
 	color:#a194f1;
 	text-align: center;
-
+	text-decoration: underline;
+	font-size: 2.5em;
 }
 h4{
 	color:#a194f1;
 	text-align: center;
 }
 img{
-	padding-top: 10px;
-	padding-left: 10px;
-
-
+	padding-top: 0.625em;
+	padding-left: 0.625em;
+	max-width: 100%;
+	height: auto;
 }
 section{
-	width: 85%;
-    margin-top: -35%;
+	border: 1px yellow solid;
+}
+main{
+	width: 75%;float: left;
+    /*margin-top: -35%;
     margin-left: 17%;
     margin-right: 1%;
-    text-align: center;
+    max-width: 90%;*/
+    border: 1px white solid;
 }
 li{
 	list-style: none;
 }
 aside{
-	position: relative;
 	font-family: 'Comfortaa', cursive;
 	background: rgb(9,33,175);
 	background: linear-gradient(90deg, rgba(9,33,175,1) 0%, rgba(255,0,0,1) 100%);
 	width: 15%;
 	margin-top: 1%;
-	height: 620px;
-	border: 10px #5a5cb0 solid;
-	font-size: 30px;
+	height: 38.75em;
+	float: left;
+	/*border: 0.625em #5a5cb0 solid;*/
+	font-size: 1.875em;
 	-webkit-box-shadow: -6px -6px 24px 10px rgba(74,74,240,1);
--moz-box-shadow: -6px -6px 24px 10px rgba(74,74,240,1);
-box-shadow: -6px -6px 24px 10px rgba(74,74,240,1);
+	-moz-box-shadow: -6px -6px 24px 10px rgba(74,74,240,1);
+	box-shadow: -6px -6px 24px 10px rgba(74,74,240,1);
 
 }
 a{
@@ -72,11 +78,22 @@ a{
 	/*float: left;*/
 	height: 46px;
 }
-.HTML5{
-	border: 10px #5a5cb0 solid;
+article{
+	border: 0.625em #5a5cb0 solid;
+	/*margin-left:1px;
+	margin-right: 51%;*/
+	font-size: 1.7em;
+	height: 330px;
+	width: 720px;
+	-webkit-box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
+	-moz-box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
+	box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
+}
+/*.HTML5{
+	border: 0.625em #5a5cb0 solid;
 	margin-left:1px;
 	margin-right: 51%;
-	font-size: 24px;
+	font-size: 1.7em;
 	height: 330px;
 	width: 720px;
 	-webkit-box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
@@ -84,9 +101,9 @@ a{
 	box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
 }
 .CSS{
-	border: 10px #5a5cb0 solid;
+	border: 0.625em #5a5cb0 solid;
 	margin-left:1px;
-	font-size: 24px;
+	font-size: 1.6em;
 	margin-left: 50%;
     margin-top: -21.75%;
     margin-right: 3%;
@@ -97,9 +114,9 @@ a{
 	box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
 }
 .BOOTSTRAP{
-	border: 10px #5a5cb0 solid;
+	border: 0.625em #5a5cb0 solid;
 	margin-left:1px;
-	font-size: 24px;
+	font-size: 1.7em;
 	margin-right: 51%;
 	height: 330px;
 	width: 720px;
@@ -108,9 +125,9 @@ a{
 	box-shadow: 15px 11px 14px 3px rgba(245,98,127,1);
 }
 .ANGULARJS{
-	border: 10px #5a5cb0 solid;
+	border: 0.625em #5a5cb0 solid;
 	margin-left:1px;
-	font-size: 24px;
+	font-size: 1.7em;
 	margin-left: 50%;
     margin-top:-21.75%;
     height: 330px;
@@ -124,6 +141,6 @@ a{
 	background: linear-gradient(90deg, rgba(31,68,213,1) 0%, rgba(90,176,172,1) 73%);
 	color: #00ff2a;
 }
-.images{
+/*.images{
 	-webkit-box-reflect: below;
 }
